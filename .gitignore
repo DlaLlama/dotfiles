@@ -1,2 +1,12 @@
 # .gitignore
-!.gitignore
+
+# Ignore everything by default
+/*
+/*/
+
+# Unignore files in root directory
+!/.gitignore
+!/README.md
+
+# Unignore folders in root directory
+!/.config/
